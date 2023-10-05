@@ -1,0 +1,61 @@
+body {
+    min-width: 270px;
+    min-height: 340px;
+    overflow-x: hidden;
+    padding-top: 10px;
+    background-color: rgb(236, 236, 236);
+  }
+
+header {
+    font-size: larger;
+    color: black;
+    font-family: monospace;
+    background-color: rgb(255, 255, 255);
+    padding-top:20px ;
+    padding:20px ;
+  }
+.mainBox{
+
+    font-size: larger;
+    color: black;
+    font-family: monospace;
+    background-color:  rgb(255, 255, 255);
+    padding:10px ;
+    min-width: 100px;
+    min-height: 250px;
+}
+
+span {
+    display: table;
+    margin: 0 auto;
+}
+
+
+.selections{    
+    display: flex;
+  flex-direction: column;
+  justify-content: center;}
+
+.contact {
+
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between ;
+   }
+
+.circle {
+    
+    background-color: #9e9e9e;
+    width: 66px;
+    height: 66px;
+    border-radius: 50%;
+  }
+.contact .circle:first-child {
+    margin-right:auto;
+   }
+.contact .circle:last-child {
+    margin-left:auto;
+   }
+        
+
+
